@@ -78,6 +78,7 @@ function gameStatus() {
                 numRemainingGuesses = parseInt(maxNumGuesses);
                 nextWord = wordList[Math.floor(Math.random() * wordList.length)];
                 activeWord = new Word(nextWord);
+                console.log(activeWord.toString());
                 guessedLetters = [];
                 playGame();
             }
