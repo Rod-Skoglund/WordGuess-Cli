@@ -103,7 +103,6 @@ function playGame() {
         }
     ).then(function(answers) {
         var noInput = (answers.nextGuess == "");
-        console.log("noInput = " + noInput);
 
         // Test to make sure something was entered
         if (noInput) {
